@@ -30,7 +30,7 @@ public class TestSelectOneMenuController implements Serializable {
     private String selPokemonList;
     private String selPokemonListOnChange;
     
-    private List<String> pokemons;
+    private List<String> pokemons = new ArrayList<>();
     
     @PostConstruct
     public void init(){
